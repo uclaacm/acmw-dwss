@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.Sticky-header {
+  background: #bada55;
+  color: white;
+  font-family: Droid Sans;
+  font-size: 18px;
+  line-height: 1.6em;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  width:100%;
+  box-sizing:border-box;
+}
+
+.App-header {
+  background-color: #333;
+  height: 680px;
+  padding-top: 200px;
+  color: white;
+  font-family: 'Overpass Mono', monospace;
+  font-weight: 300;
+  font-size: 46px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.mobile-nav {
+  position: fixed;
+  z-index: 1001;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav {
+  height: 3em;
+  background-color: white;
+  font-size: 1.5em;
+  padding: .75em;
+}
+
+.navbar-title {
+  font-family: 'Raleway', sans-serif;
+  padding: 5px 0 0 120px;
+  float: left;
+  height: 50px;
+  font-size: 24px;
+  line-height: 20px;
+}
+
+.title-color {
+  display: inline;
+  color: #333;
+}
+
+.navbar-right {
+  font-family: 'Overpass Mono', monospace;
+  font-size: 14px;
+  margin-right: 100px !important;
+  margin-top: 6px;
+}
+
+.navbar-logo {
+  width: 35px;
+  margin-right: 5px;
+}
+
+.header-info {
+  display: inline;
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  margin: 20px; 
+}
+
+a {
+  color: #118082 !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.navbar-right a:hover {
+  text-decoration: none !important;
+  background-image: linear-gradient(to right, green 75%, transparent 75%);
+  background-position: 0 1.24em;
+  background-repeat: repeat-x;
+  background-size: 8px 3px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
