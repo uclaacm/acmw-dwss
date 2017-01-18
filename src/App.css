@@ -16,18 +16,56 @@
   text-align: center;
   padding: 10px;
   text-shadow: 0 1px 1px rgba(0,0,0,.2);
-  width:100%;
+  width: 100%;
   box-sizing:border-box;
 }
 
 .App-header {
-  background-color: #333;
   height: 680px;
-  padding-top: 200px;
-  color: white;
+  position: relative;
+  background: #222;
+  overflow: hidden;
   font-family: 'Overpass Mono', monospace;
   font-weight: 300;
-  font-size: 46px;
+}
+
+.App-header h1 {
+  font-weight: 300;
+  color: #fff;
+  padding-top: 350px;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+
+.App-header:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.6;
+  background-image: url('../public/header.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.header-info {
+  font-size: 22px;
+  height: 150px;
+  margin-top: 50px;
+  color: #fff;
+  text-align: center;
+  z-index: 2;
+  position: relative;
 }
 
 .App-intro {
@@ -74,9 +112,22 @@
   margin-right: 5px;
 }
 
-.header-info {
-  display: inline;
-  font-size: 24px;
+.App-intro {
+  padding: 100px;
+  background-color: #333;
+  height: 1200px;
+  color: white;
+  font-family: 'Overpass Mono', monospace;
+}
+
+.speaker-section {
+  height: 250px;
+  padding-top: 100px;
+}
+
+.speaker-image {
+  width: 650px;
+  padding-top: 20px;
 }
 
 ul {

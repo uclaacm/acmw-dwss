@@ -5,9 +5,11 @@ class header extends Component {
     render() {
         return (
         	<div className="App-header">
-        	<h1>ACM-W Distinguished Women Speaker Series</h1>
+        	<h1>ACM-W Distinguished Speaker Series</h1>
         	<div className="header-info">
-        		<p>Location: Boelter 3400</p>
+        		<p>Boelter 3400</p>
+        		<p>January 31st, 2017</p>
+        		<p>4-5:30pm</p>
         	</div>
         	</div>
         );

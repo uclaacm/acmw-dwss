@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import MobileNav from './mobileNav';
 import Header from './header';
+import SpeakerIntro from './speakerIntro';
+import Footer from './footer';
 import './App.css';
 
 class App extends Component {
@@ -8,12 +10,9 @@ class App extends Component {
     return (
       <div className="App">
         <MobileNav />
-        <div className="App-header">
-          <Header />
-        </div>
-        <p className="App-intro">
-          Speaker List
-        </p>
+        <Header />
+        <SpeakerIntro />
+        <Footer />
       </div>
     );
   }
