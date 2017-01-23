@@ -1,18 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
 
-class header extends Component {
+class speakerIntro extends Component {
     render() {
         return (
         	<div className="App-intro">
-              <h3>Keynote Speaker</h3>
-              <img className="speaker-image" src={process.env.PUBLIC_URL+ 'maria-klawe.png'} />
-              <div className="speaker-section">
-                <p>More speakers to come! TBA</p>
-              </div>
+              <h1>Keynote Speaker</h1>
+              <img className="speaker-image" data-aos="fade-up" data-aos-delay="200" src={process.env.PUBLIC_URL+ 'maria-klawe.png'} />
             </div>
         );
     }
 }
 
-export default header;
+export default speakerIntro;

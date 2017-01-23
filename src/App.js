@@ -3,6 +3,7 @@ import MobileNav from './mobileNav';
 import Header from './header';
 import SpeakerIntro from './speakerIntro';
 import Footer from './footer';
+import StaticMap from './staticMap';
 import './App.css';
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
         <MobileNav />
         <Header />
         <SpeakerIntro />
+        <StaticMap />
         <Footer />
       </div>
     );
