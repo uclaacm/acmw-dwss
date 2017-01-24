@@ -25,7 +25,7 @@ class footer extends Component {
 			<a href="https://twitter.com/@ucla_acmw" target="_blank"><i className="fa fa-twitter fa-3x"></i></a>
 			<a href="https://medium.com/@uclaacmw" target="_blank"><i className="fa fa-medium fa-3x" aria-hidden="true"></i></a>
 			<a href="uclaacmw@gmail.com"><i className="fa fa-envelope fa-3x"></i></a>
-            <p className="footer-info"><a href="github.com/jiminkk" target="_blank">Copyright © 2017</a></p>
+            <p className="footer-info"><a href="https://github.com/jiminkk" target="_blank">Copyright © 2017</a></p>
         </div>
         </div>
         );
